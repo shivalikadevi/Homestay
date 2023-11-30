@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">HomeAwayFromHome</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact us</a>
+            </li><li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ's</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Register As
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Host Family</a></li>
+                <li><a class="dropdown-item" href="#">Travller</a></li>
+              </ul>
+            </li>
+            
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+      <!--carusel-->
+      <section
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/c1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="images/c2.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/c3.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+
+      <!--About us-->
+      
+            
+      
+          <!--Accodian or FAQ-->
+          <h3 style="text-align:center" id="faq"> Previously Asked FAQ's?</h3>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                1. What is a homestay and how does it differ from a hotel?
+              </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        A homestay is a type of accommodation where guests stay in the home of a local host, often experiencing a more authentic and local way of life. Homestays can include private rooms, shared rooms, or entire homes, and may also include meals or other services.
+                        Homestays differ from hotels in that they offer a more personal and immersive experience, often with a greater focus on cultural exchange and community.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                2. How do I find and book a homestay on your website?
+              </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        To find a homestay on our website, you can browse through listings by location, price, or other criteria. Once you've found a homestay that you're interested in, you can book directly through the website by providing your contact information and payment
+                        details.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                3. How do I know if a homestay is safe and reliable?
+              </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        Our website checks and verifies the authenticity of all listings and reviews before publishing them on the website. The host's profile, reviews, and ratings are also available for the guests to see.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                4. What is the cancellation policy for a homestay booking?
+              </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        The cancellation policy for a homestay booking may vary depending on the specific listing and host. You can review the cancellation policy for a specific homestay on the listing page before booking.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                5. How do I communicate with the host before and during my stay?
+              </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        You can communicate with the host through our messaging platform on the website. Before your stay, you can ask questions about the homestay, the local area, or the host's own interests and recommendations. During your stay, you can ask the host for help
+                        or advice, or simply let them know if everything is going well.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                6. Can I bring my pets to the homestay?
+              </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        It depends on the host's policy, please check the listing or ask the host before booking.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                7. Is there a minimum or maximum stay required?
+              </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        The minimum and maximum stay may vary depending on the specific homestay and the host's preferences. You can review this information on the listing page before booking.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                8. How do I pay for my homestay?
+              </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        You can make a payment through our website using a credit card or other accepted payment methods.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                9. How will I receive the address and key to the homestay?
+              </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        The host will provide you with the address and key (or any other necessary access information) for the homestay either through the website's messaging platform or in person upon arrival.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                10. What is the check-in and check-out time?
+              </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        The check-in and check-out time may vary depending on the specific homestay and the host's preferences. You can review this information on the listing page before booking.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid my-5">
+          <div class="row">
+              <div class="col-lg-4 p-0">
+                  <div class="d-flex align-items-center bg-secondary text-white px-5" style="min-height: 300px;">
+                      <i class="flaticon-training display-3 text-primary mr-3"></i>
+                      <div class="">
+                          <h2 class="text-white mb-3">Sustainable tourism</h2>
+                          <p>We promote sustainable local tourism by ensuring you're spending stays within local communities, minimising your environmental impact.  </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 p-0">
+                  <div class="d-flex align-items-center bg-primary text-white px-5" style="min-height: 300px;">
+                      <i class="flaticon-weightlifting display-3 text-secondary mr-3"></i>
+                      <div class="">
+                          <h2 class="text-white mb-3">True value </h2>
+                          <p>We don't just offer great prices and good long term accommodation deals, we provide true value for money by giving you a priceless authentic experience.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 p-0">
+                  <div class="d-flex align-items-center bg-secondary text-white px-5" style="min-height: 300px;">
+                      <i class="flaticon-treadmill display-3 text-primary mr-3"></i>
+                      <div class="">
+                          <h2 class="text-white mb-3">Real Homes</h2>
+                          <p>We will always offer rooms in real homes with local hosts. Our accommodation is different because you stay with locals and become part of the local community.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+<!-- Footer Start -->
+    
+<div class="footer container-fluid mt-5 py-5 px-sm-3 px-md-5 text-white" id="footer">
+  <div class="row pt-5">
+      <div class="col-lg-3 col-md-6 mb-5">
+          <h4 class="text-primary mb-4">Get In Touch</h4>
+        
+          <p><i class="fa fa-phone-alt mr-2"></i>+8822019878</p>
+          <p><i class="fa fa-envelope mr-2"></i>shivalika.manu@gmail.com</p>
+         
+      </div>
+      <div class="col-lg-3 col-md-6 mb-5">
+          <h4 class="text-primary mb-4">Quick Links</h4>
+          <div class="col-lg-3 col-md-6 mb-5">
+              <div class="d-flex flex-column justify-content-start">
+                  <a class="text-white mb-2" href="index.html">       Home</a>
+                  <a class="text-white mb-2" href="about.html">       AboutUs</a>
+                  <a class="text-white mb-2" href="faq.html">      FAQ</a>
+                  <a class="text-white mb-2" href="service.html">     Services</a>
+                  <a class="text-white" href="contact.html">       ContactUs</a>
+                     </div></div>
+              
+      </div>
+      <div class="col-lg-3 col-md-6 mb-5">
+        <h4 class="text-primary mb-4">Register</h4>
+        <div class=""><a class="text-white mb-2 col-lg-3 col-md-6 mb-5" href="host.html">   Register As Host</a></div>
+        <br>  
+        
+        <div class=""><a class="text-white mb-2 col-lg-3 col-md-6 mb-5" href="trav.html"> Book your holidays with locals</a></div>
+        
+          
+  
+      </div>
+      
+  </div>
+  <div class="container border-top border-dark pt-5">
+      <p class="m-0 text-center text-white">
+          &copy; HomeStay team
+      </p>
+  </div>
+</div>
+<!-- Footer End -->
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>

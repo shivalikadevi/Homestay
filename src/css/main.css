@@ -1,0 +1,36 @@
+
+#carouselExampleIndicators {
+    width: 100%;
+    max-width: 50rem;
+    height: 30rem;
+    margin: 2rem auto;
+}
+#hel{background-color: brown;}
+#carouselExampleIndicators img {
+    height: 30rem;
+    object-fit: fit ;
+}
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #missionh{
+    justify-content: center;
+    text-align: center;
+    color: brown;
+    background-color: bisque;
+  }#ab{
+    margin-left: 50px;
+    text-align: justify;
+    justify-content: center;
+    
+}
+  #missionp{
+    justify-content:space-between;
+    text-shadow: 0ex;
+    font-size:x-large
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color:darkcyan;}
+    
